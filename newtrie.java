@@ -176,5 +176,19 @@ class LongestCompoundWord {
         str.close();
 
 		System.out.println("Longest Compound Word: " + longestCompundWord);
+		
+// 		String firstbig = "";
+// 		String secondbig = "";
+// 		for(String compoundWord : compoundWords ) {
+// 			if((compoundWord.length() >= firstbig.length())) {
+// 				secondbig = firstbig;
+// 				firstbig = compoundWord;
+			
+// 			}else if((compoundWord.length() >= secondbig.length())) {
+// 				secondbig = compoundWord;
+				
+// 			}
+// 		}
+// 		System.out.println("2nd Longest Compound Word: " + secondbig);
 	}
 }
